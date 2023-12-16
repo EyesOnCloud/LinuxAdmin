@@ -1,0 +1,12 @@
+$TTL 1D
+@ IN SOA  server.example.com. root.example.com. (
+          2023121601  ; serial
+          1D  ; refresh
+          1H  ; retry
+          1W  ; expire
+          3H )  ; minimum
+  IN NS server.example.com.
+22 IN PTR server.example.com.
+21 IN PTR client.example.com.
+server.example.com. IN A  192.168.100.22
+client.example.com. IN A  192.168.100.21
